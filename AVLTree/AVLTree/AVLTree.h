@@ -168,7 +168,6 @@ public:
 			NodeAux->Elem = NodeAux2->Elem;
 			delete NodeAux2;
 		}
-		delete NodeAux;
 		return true;
 	}
 	void Preorder(function<void(T)> proc) { Preorder(root, proc); }
